@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Console appender with minimal output -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Silence ALL framework verbose output -->
+    <logger name="com.embabel" level="ERROR" />
+    <logger name="org.springframework" level="ERROR" />
+    <logger name="org.springframework.boot" level="ERROR" />
+    <logger name="org.springframework.context" level="ERROR" />
+    <logger name="org.springframework.beans" level="ERROR" />
+    <logger name="org.springframework.shell" level="ERROR" />
+    <logger name="org.springframework.jcl" level="ERROR" />
+    <logger name="org.apache.commons.logging" level="ERROR" />
+    
+    <!-- Keep only our CLI command output -->
+    <logger name="com.michead" level="ERROR" />
+    <logger name="com.michead.template.cli" level="INFO" />
+    <logger name="com.michead.studybuddy.agent" level="ERROR" />
+    
+    <!-- Root logger -->
+    <root level="ERROR">
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>

@@ -1,0 +1,25 @@
+# StudyBuddy CLI Configuration
+studybuddy:
+  localization:
+    # Default locale - Spanish (es)
+    default-locale: SPANISH
+    # Template path for Freemarker templates
+    template-path: /templates/prompts
+    # Whether to fallback to English if template not found for requested locale
+    fallback-to-english: true
+
+# Logging configuration for development
+logging:
+  level:
+    com.michead.studybuddy: DEBUG
+    freemarker: WARN
+
+# Spring Shell configuration
+spring:
+  shell:
+    # Customize shell prompt
+    interactive:
+      enabled: true
+    # Shell history
+    history:
+      enabled: true
