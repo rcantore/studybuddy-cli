@@ -1,6 +1,26 @@
 # StudyBuddy CLI
 
-StudyBuddy CLI es una herramienta de línea de comandos inteligente que utiliza Claude 3.5 Haiku para generar contenido educativo personalizado. Este proyecto demuestra las ventajas del JVM para agentes LLM utilizando el framework Embabel.
+StudyBuddy CLI demuestra el poder de construir agentes LLM con Java en lugar de Python, usando el framework Embabel para crear aplicaciones de IA type-safe y listas para producción en el JVM.
+
+## ¿Por qué Java para Agentes LLM?
+
+Este proyecto demuestra que Java con el framework Embabel es una excelente opción para construir agentes LLM, ofreciendo ventajas significativas para aplicaciones de IA en producción:
+
+### Ventajas Clave:
+
+- **Type Safety**: Verificación en tiempo de compilación asegura código robusto
+- **Rendimiento**: Optimización JVM y capacidades de multithreading real
+- **Listo para Producción**: Monitoreo, logging y despliegue de nivel enterprise
+- **Gestión de Dependencias**: Resolución madura de dependencias con Maven
+- **Soporte IDE**: Excelente refactoring e inteligencia de código
+- **Framework Embabel**: Diseñado específicamente para agentes LLM en Java con integración Spring Boot
+
+### Lo que Hace Genial Este Enfoque:
+
+- **Código Limpio**: Interfaces type-safe y contratos claros
+- **Mantenibilidad**: El tipado fuerte hace el refactoring seguro y fácil
+- **Listo para Enterprise**: Se integra perfectamente con infraestructura Java existente
+- **Ecosistema Spring**: Aprovecha las poderosas características de Spring Boot
 
 ## Características
 

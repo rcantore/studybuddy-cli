@@ -5,9 +5,29 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
 
-StudyBuddy CLI is an intelligent educational tool that leverages Anthropic's Claude 3.5 Haiku to generate personalized study content in Spanish and English.
+StudyBuddy CLI demonstrates the power of building LLM agents with Java instead of Python, using the Embabel framework to create type-safe, production-ready AI applications on the JVM.
 
 > **[Documentación en Español](README-es.md)** | **English Documentation**
+
+## Why Java for LLM Agents?
+
+This project demonstrates that Java with the Embabel framework is an excellent choice for building LLM agents, offering significant advantages for production AI applications:
+
+### Key Advantages:
+
+- **Type Safety**: Compile-time checking ensures robust code
+- **Performance**: JVM optimization and true multithreading capabilities
+- **Production Ready**: Enterprise-grade monitoring, logging, and deployment
+- **Dependency Management**: Maven's mature dependency resolution
+- **IDE Support**: Excellent refactoring and code intelligence
+- **Embabel Framework**: Purpose-built for Java LLM agents with Spring Boot integration
+
+### What Makes This Approach Great:
+
+- **Clean Code**: Type-safe interfaces and clear contracts
+- **Maintainability**: Strong typing makes refactoring safe and easy
+- **Enterprise Ready**: Seamlessly integrates with existing Java infrastructure
+- **Spring Ecosystem**: Leverage Spring Boot's powerful features
 
 ## Features
 
